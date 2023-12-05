@@ -1,5 +1,5 @@
 body {
-    color: #2E2F42;
+    color: #434445;
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -18,8 +18,8 @@ a {
 
 
 .logo {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -28,8 +28,8 @@ a {
 }
 
 .logo-items {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -53,10 +53,12 @@ a {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.32px;
+    font-style: normal;
 }
 
-.phone:hover {
-    color: var(--IRIS, #4D5AE5);
+.phone:hover,
+.phone:focus {
+    color: #404bbf;
 }
 
 .wrapper {
@@ -67,21 +69,22 @@ a {
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 1.12px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .wrapper_button {
-    cursor: pointer;
+    color: #ffffff;
     text-align: center;
-    border-radius: 4px;
+    /* border-radius: 4px;*/
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
 }
 
 .wrapper_button:hover,
 .wrapper_button:focus {
+    background-color: #404BBF;
     color: var(--WHITE, #FFF);
     font-size: 16px;
     font-weight: 500;
@@ -89,17 +92,19 @@ a {
 }
 
 .sidebar {
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    /* display: flex;*/
+    /* width: 264px;*/
+    /*flex-direction: column;*/
+    /*align-items: flex-start;*/
+    /*gap: 8px;*/
     line-height: 1.2;
 }
+
 
 .aside {
     background-color: var(--CLOUD, #F4F4FD);
 }
+
 
 .aside-title {
     text-align: center;
@@ -110,12 +115,28 @@ a {
     text-transform: capitalize;
 }
 
+.aside-heder {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.aside-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .footer-container {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .footer-logo {
     color: var(--CLOUD, #F4F4FD);
+    font-family: "Raleway", sans-serif;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -126,7 +147,7 @@ a {
 
 .footer-item {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
