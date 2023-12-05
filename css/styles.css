@@ -43,11 +43,20 @@ a {
     letter-spacing: 0.32px;
 }
 
+.navigation:hover,
+.navigation:active {
+    color: var(--IRIS, #4D5AE5);
+}
+
 .phone {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.32px;
+}
+
+.phone:hover {
+    color: var(--IRIS, #4D5AE5);
 }
 
 .wrapper {
@@ -64,6 +73,7 @@ a {
 }
 
 .wrapper_button {
+    cursor: pointer;
     text-align: center;
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
