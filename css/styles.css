@@ -1,10 +1,9 @@
-.page {
+body {
     color: #2E2F42;
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     line-height: 24px;
-
 }
 
 ul {
@@ -105,8 +104,9 @@ a {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
-.footer-logo {
+.logo-footer {
     color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -118,6 +118,7 @@ a {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
+    font-style: normal;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
