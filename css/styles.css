@@ -1,5 +1,5 @@
 body {
-    color: #434445;
+    color: #434455;
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -18,7 +18,7 @@ a {
 
 /*header hero*/
 .logo_items {
-    color: #2e2f42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -121,7 +121,11 @@ a {
 
 /*section2*/
 .aside {
-    background-color: var(--CLOUD, #F4F4FD);
+    background-color: #F4F4FD;
+}
+
+.back-color {
+    background-color: #FFFFFF;
 }
 
 .aside-title {
@@ -131,6 +135,7 @@ a {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 
@@ -139,7 +144,7 @@ a {
 }
 
 .footer-logo {
-    color: var(--CLOUD, #F4F4FD);
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -149,7 +154,7 @@ a {
 }
 
 .footer-item {
-    color: #4d5ae5;
+    color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
